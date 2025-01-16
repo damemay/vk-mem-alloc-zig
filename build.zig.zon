@@ -1,0 +1,16 @@
+.{
+    .name = "vk-mem-alloc-zig",
+    .version = "0.0.0",
+    //.minimum_zig_version = "0.11.0",
+    .dependencies = .{
+        .vma = .{
+            .url = "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/archive/3bab6924988e5f19bf36586a496156cf72f70d9f.tar.gz",
+            .hash = "122089e2639d2d7e9b5995cdbdcd52bd087396b1f2014a7866fc226660942f6fc01e",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
