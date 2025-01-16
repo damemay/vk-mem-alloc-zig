@@ -9,6 +9,7 @@ zig fetch --save https://github.com/damemay/vk-mem-alloc-zig/archive/COMMIT.tar.
 ```
 
 ```zig
+// build.zig
 const vma_dep = b.dependency("vk-mem-alloc-zig", .{ .target = target, .optimize = optimize });
 const vma_zig = vma_dep.module("vk-mem-alloc-zig");
 vma_zig.addImport("vulkan", vk_zig);
