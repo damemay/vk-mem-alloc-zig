@@ -24,5 +24,4 @@ pub fn build(b: *std.Build) void {
     });
 
     module.linkLibrary(vma);
-    module.addIncludePath(vma_include_path);
 }
