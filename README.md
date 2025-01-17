@@ -1,7 +1,7 @@
 # vk-mem-alloc-zig
 This module packs and wraps [VulkanMemoryAllocator (3.2.0)](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator) for easy zig-like usage with [vulkan-zig (master)](https://github.com/Snektron/vulkan-zig).
 
-The only dependency in `build.zig.zon` is VMA repo fetched for the header file. vulkan-zig module should be compiled by user and added into this module (see *Usage* below).
+The only dependency in `build.zig.zon` is VMA repo fetched for the header file. vulkan-zig module should be compiled by user and added into this module (see **Usage** below).
 
 **Many functions are largely untested** because I only use a few of them. Pull requests are welcome if anyone finds issues in any behaviour or usage.
 
