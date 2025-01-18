@@ -5,6 +5,9 @@ The only dependency in `build.zig.zon` is VMA repo fetched for the header file. 
 
 **Many functions are largely untested** because I only use a few of them. Pull requests are welcome if anyone finds issues in any behaviour or usage.
 
+## TODO:
+- Create structs that wrap VMA functions as methods.
+
 ## Usage
 
 ```bash
